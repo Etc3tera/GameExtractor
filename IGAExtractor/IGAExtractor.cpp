@@ -5,7 +5,7 @@ IGA
 {
 	CHAR "IGA0",		// 0x00
 	
-	CHAR Size1[2 - 5]			// Start At 01
+	CHAR Size1[2 - 5]			// At 0x10
 	CHAR File_Metadata[Size1]
 
 	CHAR Size2[2 - 5]
